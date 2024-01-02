@@ -7,6 +7,8 @@ const connectDB = (url) => {
     useFindAndModify: false,
     useUnifiedTopology: true,
   })
+ 
+  
 }
 
 module.exports = connectDB
